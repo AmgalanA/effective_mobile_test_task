@@ -1,0 +1,11 @@
+.nav {
+    @apply flex items-center w-full mb-0
+}
+
+.list {
+    @apply flex items-center justify-between w-full 
+}
+
+.listItem {
+    @apply hover:bg-green-500 w-full py-2 bg-green-300 transition-all cursor-pointer font-semibold hover:text-white duration-200 h-full text-center
+}

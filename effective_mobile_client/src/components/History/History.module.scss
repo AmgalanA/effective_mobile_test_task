@@ -1,0 +1,39 @@
+.container {
+    @apply w-full border-2 border-black flex flex-col items-center justify-center space-y-8 py-3 px-2;
+}
+
+.form {
+    @apply flex flex-col w-full
+}
+
+.input {
+    @apply outline-none border-2 p-4 rounded-lg w-full
+}
+
+.heading {
+    @apply text-lg font-semibold
+}
+
+.button {
+    @apply w-full py-2 h-fit border-2 hover:bg-black hover:text-white font-semibold rounded-lg mt-3 transition-all duration-300;
+}
+
+.activities {
+    @apply w-full flex flex-col items-center space-y-4
+}
+
+.activities_container {
+    @apply w-full flex flex-col items-center space-y-4
+}
+
+.update_button {
+    @apply bg-green-500 w-full rounded-lg h-10 text-white font-semibold disabled:bg-gray-300;
+}
+
+.page_nav_container {
+    @apply w-full flex items-center justify-between px-3
+}
+
+.page_nav_button {
+    @apply text-green-500 disabled:text-gray-500 disabled:cursor-not-allowed w-full font-semibold;
+}

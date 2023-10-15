@@ -1,0 +1,11 @@
+.activity {
+    @apply w-full flex flex-col items-center justify-center;
+}
+
+.type {
+    @apply border-b-2 w-full py-2 bg-gray-100 rounded-lg flex justify-center;
+}
+
+.timeago {
+    @apply mt-2 font-semibold;
+}
